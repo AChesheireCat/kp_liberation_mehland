@@ -192,7 +192,7 @@ KP_liberation_preset_resistance = 0;
 6  = CUP Takistani Civilians
 7  = CUP Chernarussian Civilians
 8  = SOGPF */
-KP_liberation_preset_civilians = 0;
+KP_liberation_preset_civilians = 7;
 
 /* Which arsenal preset should be used?
 0  = Use the default blacklist method (defined below)
@@ -214,7 +214,7 @@ KP_liberation_preset_civilians = 0;
 16 = LDF arsenal preset
 17 = SOGPF arsenal preset 
 18 = Vietcong arsenal preset*/
-KP_liberation_arsenal = 0;
+KP_liberation_arsenal = 1;
 
 /* - Fuel consumption settings.
 Time in minutes till a full tank depletes whilst the vehicle is standing still with a running engine. */
@@ -307,12 +307,15 @@ KP_liberation_commander_actions = [
     "5468711",
     "2156347"
     */
+    "34826251",
+    "78544791"
 ];
 
 /* Whitelist for BI support framework access.
 Same format as for the commander actions. */
 KP_liberation_suppMod_whitelist = [
-
+    "34826251",
+    "78544791"
 ];
 
 /* Array of radio tower classnames to place at radio tower sectors.

@@ -40,7 +40,7 @@ class CfgDebriefingSections {
 class Header {
     gameType = "CTI";
     minPlayers = 1;
-    maxPlayers = 34;
+    maxPlayers = 100;
 };
 
 // Name of Mission author(s) and contributors. Obviously you can only add and not (!) remove someone.
