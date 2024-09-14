@@ -85,12 +85,7 @@ description = "Askeland Defense Force (ADF) c. 2014 - this loadout uses the mod 
 #define PISTOL_MAG "ptv_12Rnd_45ACP_USP:3"
 #define PISTOL_OPTIC "potato_strongerFlashlights_Vanilla_HG_LED_flashlight"
 // Grenades
-#define LEADER_GRENADES DEF_FRAG,LEADER_SMOKES,SIDE_CHEM_LIGHT
-#define SIDE_FRAG "ptv_mag_frag03:2"
-#define SIDE_SMOKE "ptv_mag_smoke01:2"
-#define OFF_FRAG "ptv_mag_frag01:2"
-#define DEF_FRAG "ptv_mag_frag02:2"
-#define BASE_GRENADES DEF_FRAG,SIDE_SMOKE
+#define LEADER_GRENADES BASE_FRAG,LEADER_SMOKES,SIDE_CHEM_LIGHT
 // Gear
 #define TOOLS BASE_TOOLS
 #define LEADER_TOOLS BASE_LEADER_TOOLS,SIDE_KEY

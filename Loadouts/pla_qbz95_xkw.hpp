@@ -407,44 +407,44 @@ class fallback: rifleman {}; // This means any faction member who doesn't match 
 
 //SF Classes
 
-#define SF_UNIFORM
-#define SF_VEST
-#define SF_VEST_AR
-#define SF_VEST_FTL
-#define SF_VEST_SL
-#define SF_VEST_SNIPER
-#define SF_HEADGEAR
-#define SF_BACKPACK
-#define SF_CARRYALL
+#define SF_UNIFORM CAMO_UNIFORM
+#define SF_VEST "V_TacVest_blk_POLICE"
+#define SF_VEST_AR SF_VEST
+#define SF_VEST_FTL SF_VEST
+#define SF_VEST_SL SF_VEST
+#define SF_VEST_SNIPER SF_VEST
+#define SF_HEADGEAR "acp_CN_Xingkong_W_core_lite_H_Booniehat_CN_Xingkong_W","acp_CN_Xingkong_W_extra_headgear_lite_H_Cap_CN_Xingkong_W"
+#define SF_BACKPACK "B_Battle_Belt_F"
+#define SF_CARRYALL "B_Battle_Belt_XL_F"
 
-#define SF_RIFLE
-#define SF_RIFLE_MAG
-#define SF_RIFLE_ATTACHMENTS
+#define SF_RIFLE "CUP_arifle_TYPE_56_2_Early","CUP_arifle_TYPE_56_2_Early","CUP_arifle_TYPE_56_2_top_rail"
+#define SF_RIFLE_MAG "CUP_30Rnd_TE1_Green_Tracer_762x39_AK47_M:5"
+#define SF_RIFLE_ATTACHMENTS "acc_flashlight"
 
 #define SF_CARBINE SF_RIFLE
 #define SF_CARBINE_MAG SF_RIFLE_MAG
 #define SF_RIFLE_ATTACHMENTS SF_RIFLE_ATTACHMENTS
 
-#define SF_GLRIFLE
-#define SF_GLRIFLE_MAG
-#define SF_GLRIFLE_MAG_HE
-#define SF_GLRIFLE_MAG_SMOKE
-#define SF_GLRIFLE_MAG_ILLUM
+#define SF_GLRIFLE GLRIFLE
+#define SF_GLRIFLE_MAG GLRIFLE_MAG
+#define SF_GLRIFLE_MAG_HE GLRIFLE_MAG_HE
+#define SF_GLRIFLE_MAG_SMOKE GLRIFLE_MAG_SMOKE
+#define SF_GLRIFLE_MAG_ILLUM GLRIFLE_MAG_FLARE
 
-#define SF_AR
-#define SF_AR_MAG
-#define SF_AR_ATTACHMENTS
+#define SF_AR "CUP_arifle_RPK74","CUP_arifle_RPK74_top_rail"
+#define SF_AR_MAG "CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M:4"
+#define SF_AR_ATTACHMENTS "acc_flashlight"
 
-#define SF_SNIPER
-#define SF_SNIPER_MAG
-#define SF_SNIPER_ATTACHMENTS
+#define SF_SNIPER "CUP_SKS_rail"
+#define SF_SNIPER_MAG "CUP_10Rnd_762x39_SKS_M:10"
+#define SF_SNIPER_ATTACHMENTS "hlc_optic_VOMZ3d"
 
-#define SF_AT
+#define SF_AT "cwr3_launch_rpg75"
 #define SF_AT_MAG
 #define SF_AT_ATTACHMENTS
 
-#define SF_PISTOL
-#define SF_PISTOL_MAG
+#define SF_PISTOL PISTOL
+#define SF_PISTOL_MAG PISTOL_MAG
 #define SF_PISTOL_ATTACHMENTS
 
 class sf_rifleman {// sf rifleman
