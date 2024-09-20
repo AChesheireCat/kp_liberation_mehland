@@ -20,9 +20,6 @@
 // Extended Event Handlers:
 #include "cfg\CfgEventHandlers.hpp"
 
-// Parameters
-#include "cfg\Params.hpp"
-
 bwmfDate = "2024/1/7"; //Framework date
 
 class CfgDebriefingSections {

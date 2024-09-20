@@ -102,6 +102,7 @@ light_vehicles = [
     ["B_Boat_Transport_01_F",100,0,25],                                 // Assault Boat
     ["CUP_B_RHIB_HIL",175,80,75],                                       // RHIB (M2)
     ["CUP_B_MK10_GB",200,0,100],                                        // RHIB (M2)
+    ["BAE_FIC",200,0,100],                                              // BAE Fast Interceptor Craft
     ["B_SDV_01_F",150,0,50]                                             // SDV
 ];
 
@@ -113,7 +114,7 @@ heavy_vehicles = [
     ["B_AMF_TANK_01",400,300,200],                                      // Leclerc
     ["B_AMF_TANK_CE_02_F",400,300,200],                                 // Leclerc XLR
     ["B_T_MBT_01_arty_F",600,1250,300],                                 // M4 Scorcher
-    ["sab_mp_migaloo",500,0,100],                                       // Armadale Patrol Boat
+    ["sab_mp_migaloo",500,0,100]                                       // Armadale Patrol Boat
 ];
 
 air_vehicles = [
@@ -367,5 +368,6 @@ elite_vehicles = [
     "AMF_TIGRE_01",                                                     // AH-1Z
     "AMF_RAFALE_B_01_F",                                                // JAS-39 Gripen
     "AMF_RAFALE_C_01_F",                                                // JAS-39 Gripen
-    "AMF_RAFALE_M_01_F"                                                 // JAS-39 Gripen
+    "AMF_RAFALE_M_01_F",                                                // JAS-39 Gripen
+    "sab_mp_migaloo"                                                    // Armadale Patrol Boat
 ];

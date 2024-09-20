@@ -13,7 +13,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=999;
+		nextID=1000;
 	};
 	class MarkerIDProvider
 	{
@@ -21,14 +21,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=215;
+		nextID=251;
 	};
 	class Camera
 	{
-		pos[]={2368.4648,65.371559,11557.326};
-		dir[]={0.55065298,-0.48740301,-0.67765874};
-		up[]={0.30737197,0.87317681,-0.37826565};
-		aside[]={-0.77608275,4.1443855e-08,-0.6306318};
+		pos[]={7182.96,275.97638,8173.4238};
+		dir[]={0.37795562,-0.63564718,-0.67312872};
+		up[]={0.31120819,0.77197963,-0.55425334};
+		aside[]={-0.87195122,1.4901161e-08,-0.48959264};
 	};
 };
 binarizationWanted=0;
@@ -2000,7 +2000,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2455.6545,0.99349976,11631.863};
+				position[]={2455.6545,0,11631.863};
 				angles[]={0,2.9593179,0};
 			};
 			side="Empty";
@@ -2010,7 +2010,7 @@ class Mission
 			};
 			id=81;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=68.511185;
+			atlOffset=67.517685;
 		};
 		class Item28
 		{

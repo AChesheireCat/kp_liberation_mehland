@@ -307,15 +307,11 @@ KP_liberation_commander_actions = [
     "5468711",
     "2156347"
     */
-    "34826251",
-    "78544791"
 ];
 
 /* Whitelist for BI support framework access.
 Same format as for the commander actions. */
 KP_liberation_suppMod_whitelist = [
-    "34826251",
-    "78544791"
 ];
 
 /* Array of radio tower classnames to place at radio tower sectors.
