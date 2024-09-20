@@ -102,7 +102,6 @@ light_vehicles = [
     ["B_Boat_Transport_01_F",100,0,25],                                 // Assault Boat
     ["CUP_B_RHIB_HIL",175,80,75],                                       // RHIB (M2)
     ["CUP_B_MK10_GB",200,0,100],                                        // RHIB (M2)
-    ["BAE_FIC",200,0,100],                                              // BAE Fast Interceptor Craft
     ["B_SDV_01_F",150,0,50]                                             // SDV
 ];
 
