@@ -158,6 +158,15 @@ GRLIB_arsenal_items = [
     "amf_balaclava_goggles_ranger",
     "amf_balaclava_sordin_rangerod",
     "amf_balaclava_sording_rangerod",
+    "G_tweed_peltor",
+    "G_tweed_tacticool_peltor",
+    "G_tweed_tacticool",
+    "G_tweed_tacticool_weiss",
+    "G_tweed_tacticool_weiss_peltor",
+    "G_tweed_tacticool_oranje",
+    "G_tweed_tacticool_oranje_peltor",
+    "vn_o_poncho_01_01",
+    "CUP_G_ESS_BLK",
 
     // Vests
     "amf_SMB_TDF",                                                  // NFM SMB (TDF)

@@ -1,85 +1,114 @@
 author = "AChesheireCat";
-description = "People's Liberation Army c. 2020";
+description = "Irregular Militia (as seen from Squad) c. 2020 - Uses S.O.G Prarie Fire assets.";
 #include "undef.hpp" // Reset defines
 
 // ------------------- PASTE BELOW THIS LINE
 
 
 // Camo set
-#define CAMO_UNIFORM "acp_CN_Xingkong_W_core_lite_U_I_E_Uniform_CN_Xingkong_W_01_F_insignia","acp_CN_Xingkong_W_core_lite_U_I_E_Uniform_shortsleeve_CN_Xingkong_W_01_F_flag"
-#define CAMO_VEST "acp_CN_Xingkong_W_modern_east_lite_Aegis_OCarrierLuchnik_Lite_CN_Xingkong_W_F","acp_CN_Xingkong_W_modern_east_lite_Aegis_OCarrierLuchnik_CQB_CN_Xingkong_W_F"
-#define CAMO_BACKPACK "B_Battle_Belt_F"
-#define CARRYALL "acp_CN_Xingkong_W_core_lite_B_Carryall_CN_Xingkong_W"
-#define CAMO_HEADGEAR "acp_CN_Xingkong_W_core_lite_H_HelmetB_CN_Xingkong_W"
-#define CAMO_HEADGEAR_SPECIAL "acp_CN_Xingkong_W_core_lite_H_Booniehat_CN_Xingkong_W_hs"
-//Pilot camo Set
-#define CAMO_UNIFORM_PILOT "rhs_uniform_df15"
-#define CAMO_VEST_PILOT "PLOT_ARMOR_V_Pockets_F"
+#define CAMO_UNIFORM "CUP_U_O_RUS_Gorka_Partizan", "CUP_U_O_RUS_Gorka_Partizan_gloves2", "CUP_U_O_RUS_Gorka_Partizan", "CUP_U_O_RUS_Gorka_Partizan_gloves2", "CUP_U_O_CHDKZ_Kam_04", "CUP_U_O_CHDKZ_Kam_05", "CUP_U_O_CHDKZ_Kam_06"
+#define CAMO_VEST "CUP_V_B_GER_Carrier_Rig_3_Brown", "CUP_V_O_RUS_RPS_Smersh_AK_ModernOlive", "rhs_6sh92_vsr_radio", "rhs_6sh92_vsr"
+#define CAMO_BACKPACK "cwr3_o_backpack_gasmask"
+#define CARRYALL "CUP_B_HikingPack_Civ"
+#define CAMO_HEADGEAR "cwr3_b_headgear_cap_og107", "cwr3_b_headgear_cap_og107", "cwr3_b_headgear_cap_og107", "cwr3_b_headgear_cap_og107", "rhs_6b28_green", "rhs_6b28_green_ess"
+#define CAMO_HEADGEAR_SPECIAL "PLOT_ARMOR_H_No_Hat"
+// Pilot Camo set
+#define CAMO_UNIFORM_PILOT CAMO_UNIFORM
+#define CAMO_VEST_PILOT CAMO_VEST
 #define CAMO_BACKPACK_PILOT "B_Battle_Belt_XL_F"
-#define CAMO_HEADGEAR_PILOT "CUP_H_SPH4_green_visor"
-//Vehicle camo set
-#define CAMO_UNIFORM_VICC CAMO_UNIFORM
-#define CAMO_VEST_VICC "rhs_vest_commander"
+#define CAMO_HEADGEAR_PILOT CAMO_HEADGEAR
+// Vic Crew Camo set
+#define CAMO_UNIFORM_VICC "CUP_U_C_Tracksuit_02"
+#define CAMO_VEST_VICC CAMO_VEST
 #define CAMO_BACKPACK_VICC "B_Battle_Belt_XL_F"
-#define CAMO_HEADGEAR_VICC "rhs_tsh4","rhs_tsh4_ess"
+#define CAMO_HEADGEAR_VICC "rhs_tsh4", "rhs_tsh4_ess"
 // Rifle
-#define RIFLE "YL_QBZ191"
-#define RIFLE_MAG "30Rnd_580x42_Mag_F:7","30Rnd_580x42_Mag_Tracer_F:3"
-#define RIFLE_ATTACHMENTS "acc_flashlight","191_grip","HOLOSUN_510C_B"
+#define RIFLE "CUP_arifle_M16A2","CUP_arifle_M16A2","CUP_arifle_Colt727","potato_fauxC7_c7"
+#define RIFLE_MAG "30Rnd_556x45_Stanag:7", "30Rnd_556x45_Stanag_Tracer_Yellow:3"
+#define RIFLE_ATTACHMENTS "potato_strongerFlashlights_CUP_LED_flashlight","CUP_optic_Aimpoint_5000"
 #define AAR_ATTACHMENTS RIFLE_ATTACHMENTS
-#define ALT_OPTICS "rhs_acc_rakurspm","ptv_t1s","cup_optic_ac11704_black","cup_optic_mepro","cup_optic_vortexrazor_uh1_black"
+#define ALT_OPTICS 
+#define MAG_OPTICS "rhs_acc_1p29","CUP_optic_ACOG_TA01B_Black"
+// Rifle 2
+#define RIFLE2 "cwr3_arifle_fnfal_hlag","CUP_arifle_FNFAL5061_wooden","CUP_arifle_FNFAL5061","CUP_arifle_FNFAL5060"
+#define RIFLE2_MAG "vn_l1a1_20_mag:7", "CUP_20Rnd_TE1_Yellow_Tracer_762x51_FNFAL_M:3"
+#define RIFLE2_ATTACHMENTS RIFLE_ATTACHMENTS
+// Rifle 3
+#define RIFLE3 "CUP_arifle_AKS74","CUP_arifle_AK74","CUP_arifle_AK74M","CUP_arifle_AKS74_Early","CUP_arifle_AK74_Early"
+#define RIFLE3_MAG "CUP_30Rnd_545x39_AK_M:7", "CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M:3"
+#define RIFLE3_ATTACHMENTS "potato_strongerFlashlights_CUP_LED_flashlight","CUP_optic_1p63"
+// Rifle 4
+#define RIFLE4 "vn_sks"
+#define RIFLE4_MAG "vn_sks_mag:7","vn_sks_t_mag:3"
+#define RIFLE4_ATTACHMENTS "vn_o_3x_sks"
 // GL Rifle
-#define GLRIFLE "YL_QBZ191_GL","YL_QBZ192_GL"
+#define GLRIFLE "CUP_arifle_M16A2_GL"
 #define GLRIFLE_MAG RIFLE_MAG
-#define GLRIFLE_MAG_SMOKE "1Rnd_Smoke_Grenade_shell:2","1Rnd_SmokeRed_Grenade_shell:2"
+#define GLRIFLE_MAG_SMOKE "1Rnd_Smoke_Grenade_shell:2", "1Rnd_SmokeRed_Grenade_shell:2"
 #define GLRIFLE_MAG_HE "1Rnd_HE_Grenade_shell:5"
-#define GLRIFLE_MAG_FLARE "UGL_FlareYellow_F:4"
+#define GLRIFLE_MAG_FLARE "CUP_1Rnd_StarFlare_White_M203:4"
+//GL Rifle 2
+#define GLRIFLE2 "vn_l1a1_01_gl"
+#define GLRIFLE2_MAG "vn_l1a1_20_mag:10"
+#define GLRIFLE2_MAG_SMOKE "vn_22mm_m22_smoke_mag:4"
+#define GLRIFLE2_MAG_HE "vn_22mm_m61_frag_mag:5"
+#define GLRIFLE2_MAG_AT "vn_22mm_n94_heat_mag:5"
+//GL Rifle 3
+#define GLRIFLE3 "CUP_arifle_AKS74_GL","CUP_arifle_AK74_GL","CUP_arifle_AK74M_GL","CUP_arifle_AKS74_GL_Early","CUP_arifle_AK74_GL_Early"
+#define GLRIFLE3_MAG RIFLE3_MAG
+#define GLRIFLE3_MAG_FLARE "CUP_IlumFlareWhite_GP25_M:4"
 // Carbine
-#define CARBINE "YL_QBZ192"
-#define CARBINE_MAG RIFLE_MAG
+#define CARBINE "CUP_arifle_AKS74U"
+#define CARBINE_MAG RIFLE3_MAG
 // AR
-#define AR "YL_QJS201","YL_QJB201"
-#define AR_MAG "YL_150rnd_58x42_DBP191_Mag:3"
-// AT - CWR AT-4 is a stand in for the DZJ-08 which has the same proportions, sorta.
-#define AT "cwr3_launch_at4"
-#define AT_MAG "cwr3_at4_heat_m"
+#define AR "CUP_lmg_minimipara","CUP_lmg_M249_E1","CUP_lmg_M249_E2"
+#define AR_MAG "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249:2"
+// AT
+#define AT "CUP_launch_RPG7V"
+#define AT_MAG "CUP_PG7V_M:2","CUP_OG7_M:1"
+#define GREN_MAG "CUP_OG7_M:5"
 // MMG
-#define MMG "YL_QJY201"
-#define MMG_MAG "YL_100rnd_762x51_DJP201_Mag:5"
+#define MMG "CUP_lmg_PKMN"
+#define MMG_MAG "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Yellow_M:5"
 // MAT
-#define MAT "launch_RPG32_green_F"
-#define MAT_MAG "RPG32_F:2","RPG32_HE_F:1"
-#define MAT_OPTIC
+#define MAT "CUP_launch_RPG7V"
+#define MAT_MAG "CUP_PG7VL_M:2","CUP_OG7_M:1"
+#define MAG_MAG2 "CUP_PG7VL_M:1","CUP_OG7_M:3"
+#define MAT_MAG3 "CUP_PG7VR_M:2"
+#define MAT_OPTIC "CUP_optic_PGO7V3"
 // HMG
-#define HMG "CUP_DSHKM_carry"
+#define HMG "ace_compat_rhs_afrf3_nsv_carry"
 #define HMG_TRI_HI "ace_csw_kordCarryTripod"
 #define HMG_TRI_LO "ace_csw_kordCarryTripodLow"
 #define HMG_MAG "ace_csw_50Rnd_127x108_mag:4"
 // HAT
-#define HAT "CUP_launch_Javelin"
-#define HAT_TRI_HI 
-#define HAT_TRI_LO 
-#define HAT_MAG "CUP_Javelin_M"
-// SAM - 9K38 Igla (1981)
+#define HAT "ace_compat_rhs_afrf3_spg9m_carry"
+#define HAT_TRI "ace_csw_spg9CarryTripod"
+#define HAT_MAG "ace_compat_rhs_afrf3_mag_PG9V:2", "ace_compat_rhs_afrf3_mag_OG9V:1"
+// SAM - should be an SPAA gun if possible
 #define SAM "CUP_launch_Igla"
 #define SAM_MAG 
 // Sniper
-#define SNIPER "srifle_DMR_07_blk_F"
-#define SNIPER_MAG "ACE_10Rnd_580x42_DBP88_Mag:10"
-#define SNIPER_ATTACHMENTS "hlc_optic_zf95base","acc_pointer_ir"
+#define SNIPER "vn_svd"
+#define SNIPER_MAG "vn_svd_mag:10"
+#define SNIPER_OPTIC "vn_o_4x_svd"
 // Spotter
-#define SPOTTER CARBINE
-#define SPOTTER_MAG RIFLE_MAG
-#define SPOTTER_ATTACHMENTS RIFLE_ATTACHMENTS
+#define SPOTTER RIFLE3
+#define SPOTTER_MAG RIFLE3_MAG
+#define SPOTTER_OPTIC RIFLE3_ATTACHMENTS
 // SMG
 #define SMG CARBINE
-#define SMG_MAG "30Rnd_580x42_Mag_F:5"
+#define SMG_MAG "CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M:5"
 // Pistol
-#define PISTOL "CUP_hgun_CZ75"
-#define PISTOL_MAG "CUP_16Rnd_9x19_cz75:3"
-#define PISTOL_ATTACHMENTS 
+#define PISTOL "vn_tt33"
+#define PISTOL_MAG "vn_tt33_mag:3"
+#define PISTOL_OPTIC 
 // Grenades
-#define LEADER_GRENADES BASE_FRAG,LEADER_SMOKES,SIDE_CHEM_LIGHT
+#define LEADER_GRENADES SIDE_FRAG,LEADER_SMOKES,SIDE_CHEM_LIGHT
+#define SIDE_FRAG "rhs_mag_rgd5:2"
+#define SIDE_SMOKE "SmokeShell:2"
+#define AT_FRAG "vn_rkg3_grenade_mag:2"
+#define BASE_GRENADES SIDE_FRAG,SIDE_SMOKE
 // Gear
 #define TOOLS BASE_TOOLS
 #define LEADER_TOOLS BASE_LEADER_TOOLS,SIDE_KEY
@@ -88,29 +117,28 @@ description = "People's Liberation Army c. 2020";
 
 
 // -------------------- PASTE ABOVE THIS LINE
+
+//V_HarnessO_brn rhs_lifchik V_Chestrig_khk
+
 //Custom Defines
-#define CAMO_VEST_AR CAMO_VEST
-#define CAMO_VEST_FTL CAMO_VEST
+#define CAMO_VEST_AR "cwr3_b_vest_alice_mg","CUP_V_O_RUS_RPS_Smersh_PKP_Light_ModernOlive","CUP_V_O_RUS_RPS_Smersh_PKP_SPP_ModernOlive","CUP_V_B_RRV_MG"
+#define CAMO_VEST_LAT CAMO_VEST
+#define CAMO_VEST_FTL "rhs_6sh92_vsr_vog_headset", "CUP_V_B_GER_Carrier_Rig_3_Brown", "CUP_V_O_RUS_RPS_Smersh_VOG_SPP_ModernOlive", "rhs_6sh92_vsr_vog"
 #define CAMO_VEST_SL CAMO_VEST
 #define CAMO_VEST_MEDIC CAMO_VEST
-#define CAMO_VEST_CC "acp_CN_Xingkong_W_modern_east_lite_Aegis_OCarrierLuchnik_CN_Xingkong_W_F"
-#define CAMO_BACKPACK_LAT CAMO_BACKPACK
-#define CAMO_BACKPACK_AR "acp_CN_Xingkong_W_core_lite_B_TacticalPack_CN_Xingkong_W"
-#define CAMO_BACKPACK_FTL "acp_CN_Xingkong_W_core_lite_B_AssaultPack_CN_Xingkong_W"
-#define CAMO_BACKPACK_SL "acp_CN_Xingkong_W_core_lite_B_AssaultPackEnhanced_CN_Xingkong_W"
-#define CAMO_BACKPACK_MEDIC "acp_CN_Xingkong_W_core_lite_B_Kitbag_rgr_CN_Xingkong_W"
-#define MMG_ATTACHMENTS 
+#define CAMO_BACKPACK_LAT "rhs_rpg_2"
+#define CAMO_BACKPACK_AR "CUP_B_ACRPara_dpm"
+#define CAMO_BACKPACK_FTL "CUP_B_CivPack_WDL"
+#define CAMO_BACKPACK_SL "CUP_B_AlicePack_Bedroll"
+#define CAMO_BACKPACK_MEDIC "rhs_medic_bag_XL"
+#define MMG_ATTACHMENTS "rhs_acc_1p29"
 #define CAMO_UNIFORM_SNIPER CAMO_UNIFORM
 
-#define DMR "YL_QBU191"
-#define DMR_MAG "YL_10rnd_58x42_DBP191_Mag:10"
-#define DMR_ATTACHMENTS "YL_lpvo_8x","YL_ACC_IR","yl_191_bipod"
-
-//  init = "this addGoggles selectRandom ['','','','','','','',''];"
+//  init = "this addGoggles selectRandom ['G_Balaclava_blk','G_Balaclava_blk','G_Balaclava_blk',''];"
 
 class Car {
   TransportWeapons[] = {AT};
-  TransportMagazines[] = {RIFLE_MAG,RIFLE_MAG,CARBINE_MAG,AR_MAG,AR_MAG,GLRIFLE_MAG_HE};
+  TransportMagazines[] = {RIFLE_MAG,RIFLE_MAG,RIFLE2_MAG,RIFLE2_MAG,RIFLE3_MAG,RIFLE3_MAG,AR_MAG,AR_MAG,GLRIFLE2_MAG_HE,GLRIFLE2_MAG_HE,GLRIFLE3_MAG_HE};
   TransportItems[] = {BASE_MEDICAL,BASE_MEDICAL,BASE_MEDICAL,BASE_MEDICAL};
 };
 class Tank {
@@ -130,7 +158,7 @@ class rifleman {// rifleman
   vest[] = {CAMO_VEST};
   headgear[] = {CAMO_HEADGEAR};
   backpack[] = {CAMO_BACKPACK};
-  backpackItems[] = {BASE_MEDICAL};
+  backpackItems[] = {BASE_MEDICAL,CAMO_HEADGEAR_SPECIAL};
   weapons[] = {RIFLE};
   magazines[] = {RIFLE_MAG,BASE_GRENADES};
   items[] = {TOOLS};
@@ -145,22 +173,25 @@ class Fic_Soldier_Carbine: rifleman {// carbine-man
 class ftl: rifleman {// FTL
   vest[] = {CAMO_VEST_FTL};
   backpack[] = {CAMO_BACKPACK_FTL};
-  weapons[] = {GLRIFLE};
-  magazines[] = {GLRIFLE_MAG,GLRIFLE_MAG_HE,GLRIFLE_MAG_SMOKE,LEADER_GRENADES};
+  weapons[] = {GLRIFLE2};
+  magazines[] = {GLRIFLE2_MAG,GLRIFLE2_MAG_HE,GLRIFLE2_MAG_SMOKE,LEADER_GRENADES};
   items[] += {LEADER_TOOLS,"acex_intelitems_notepad"};
   linkedItems[] += {LEADER_LINKED,BINOS};
 };
 class sl: ftl {// SL
   vest[] = {CAMO_VEST_SL};
   backpack[] = {CAMO_BACKPACK_SL};
+  weapons[] = {GLRIFLE3};
+  magazines[] = {GLRIFLE3_MAG,GLRIFLE_MAG_HE,GLRIFLE_MAG_SMOKE,LEADER_GRENADES,PISTOL_MAG};
   handguns[] = {PISTOL};
-  magazines[] += {PISTOL_MAG};
-  linkedItems[] = {LINKED,LEADER_LINKED,RANGE_FINDER};
-  items[] += {RADIO_MR};
-  handgunAttachments[] = {PISTOL_OPTIC};
+  linkedItems[] = {LINKED,LEADER_LINKED,BINOS};
+  items[] += {RADIO_MR,"WBK_HeadLampItem"};
 };
 class coy: sl {// CO and DC
+  headgear[] = {"CUP_H_ChDKZ_Beret"};
   backpack[] = {CARRYALL};
+  weapons[] = {GLRIFLE};
+  magazines[] = {GLRIFLE_MAG,GLRIFLE_MAG_HE,GLRIFLE_MAG_SMOKE,LEADER_GRENADES,PISTOL_MAG};
   items[] += {RADIO_LR};
 };
 class uav: rifleman {
@@ -174,17 +205,22 @@ class ar: rifleman {// AR
   weapons[] = {AR};
   magazines[] = {AR_MAG,PISTOL_MAG,BASE_GRENADES};
   handguns[] = {PISTOL};
-  handgunAttachments[] = {PISTOL_OPTIC};
+  items[] += {"WBK_HeadLampItem"};
 };
 class aar: rifleman {// AAR
   backpack[] = {CAMO_BACKPACK_AR};
   backpackItems[] += {AR_MAG};
+  weapons[] = {RIFLE2};
+  magazines[] = {RIFLE2_MAG,BASE_GRENADES};
   linkedItems[] += {BINOS};
 };
-class lat: Fic_Soldier_Carbine {// RAT
+class lat: rifleman {// RAT
+  vest[] = {CAMO_VEST_LAT};
   backpack[] = {CAMO_BACKPACK_LAT};
-  magazines[] += {AT_MAG};
+  weapons[] = {RIFLE3};
+  magazines[] = {RIFLE3_MAG,BASE_GRENADES,AT_MAG};
   launchers[] = {AT};
+  attachments[] = {RIFLE3_ATTACHMENTS};
 };
 class sm: Fic_Soldier_Carbine {// Medic
   vest[] = {CAMO_VEST_MEDIC};
@@ -192,8 +228,8 @@ class sm: Fic_Soldier_Carbine {// Medic
   backpack[] = {CAMO_BACKPACK_MEDIC};
   backpackItems[] = {MEDIC_MEDICAL,"WBK_HeadLampItem"};
 };
-class Fic_Spotter: rifleman {
-  linkedItems[] += {RANGE_FINDER};
+class Fic_Spotter: Fic_Soldier_Carbine {
+  linkedItems[] += {BINOS};
 };
 class mmgg: ar {// MMG
   weapons[] = {MMG};
@@ -227,16 +263,17 @@ class msamg: Fic_Soldier_Carbine {// SAM Gunner
 };
 class msamag: Fic_Spotter {// SAM Spotter/Ammo Bearer
   SAM_GEAR(CARRYALL, SAM_MAG)
+  launchers[] = {SAM};
 };
 class mtrg: Fic_Soldier_Carbine {// Mortar Gunner
-  launchers[] = {"potato_vz99_carryWeapon"};
+  launchers[] = {"ace_compat_sog_mortar_m2_carry"};
   MORTAR_GEAR(CARRYALL)
-  magazines[] += {"potato_vz99_HE_multi:6","potato_vz99_flare:2"};
+  magazines[] += {"ace_compat_sog_60mm_he:6"};
 };
 class mtrag: Fic_Spotter {// Assistant Mortar
   launchers[] = {"ace_csw_carryMortarBaseplate"};
   MORTAR_GEAR(CARRYALL)
-  magazines[] += {"potato_vz99_HE_multi:2","potato_vz99_smokeWhite:4","potato_vz99_flare:2"};
+  magazines[] += {"ace_compat_sog_60mm_he:2","ace_compat_sog_60mm_lume:2","ace_compat_sog_60mm_wp:2"};
 };
 class spotter: Fic_Spotter {// Spotter
   uniform[] = {CAMO_UNIFORM_SNIPER};
@@ -249,10 +286,9 @@ class spotter: Fic_Spotter {// Spotter
 };
 class sniper: spotter {// Sniper
   uniform[] = {CAMO_UNIFORM_SNIPER};
-  backpack[] = {"ace_gunbag"};
+  backpack[] = {CARRYALL};
   weapons[] = {SNIPER};
-  magazines[] = {SPOTTER_MAG,SNIPER_MAG,BASE_GRENADES};
-  backpackItems[] += {SPOTTER,SPOTTER_OPTIC};
+  magazines[] = {SNIPER_MAG,BASE_GRENADES};
   items[] = {TOOLS,"ACE_RangeCard","ACE_Tripod"};
   linkedItems[] = {LINKED};
   attachments[] = {SNIPER_OPTIC};
@@ -273,8 +309,8 @@ class vicc: Fic_Soldier_Carbine {// Crew
   vest[] = {CAMO_VEST_VICC};
   headgear[] = {CAMO_HEADGEAR_VICC};
   backpack[] = {CAMO_BACKPACK_VICC};
-  weapons[] = {CARBINE};
-  magazines[] = {CARBINE_MAG,CREW_GRENADES};
+  weapons[] = {SMG};
+  magazines[] = {SMG_MAG,CREW_GRENADES};
   backpackItems[] = {SIDE_KEY,RADIO_LR};
   linkedItems[] = {LINKED,LEADER_LINKED,BINOS};
   items[] += {BASE_MEDICAL};
@@ -307,15 +343,20 @@ class fac: coy {// FAC
   magazines[] = {GLRIFLE_MAG,SIDE_FAC_GRENADES,"Laserbatteries",PISTOL_MAG};
   linkedItems[] = {LINKED,LEADER_LINKED,"CUP_LRTV"};
 };
-class rifleman_02: rifleman {// Rifleman 2
-  backpack[] = {CAMO_BACKPACK_FTL};
-  backpackItems[] += {RIFLE_MAG};
+class rifleman_02: rifleman {// Rifleman 2 - FAL
+  weapons[] = {RIFLE2};
+  magazines[] = {RIFLE2_MAG,BASE_GRENADES};
+  attachments[] = {RIFLE2_ATTACHMENTS};
 };
-class rifleman_03: rifleman {// Rifleman 3
-  backpack[] = {CAMO_BACKPACK_AR};
-  backpackItems[] += {AR_MAG};
+class rifleman_03: rifleman {// Rifleman 3 - AKS-74
+  weapons[] = {RIFLE3};
+  magazines[] = {RIFLE3_MAG,BASE_GRENADES};
+  attachments[] = {RIFLE3_ATTACHMENTS};
 };
-class rifleman_04: rifleman {// Rifleman 2
+class rifleman_04: lat {// Rifleman 2 - RPG Grenadier
+  weapons[] = {RIFLE};
+  magazines[] = {RIFLE_MAG,BASE_GRENADES,GREN_MAG};
+  attachments[] = {RIFLE_ATTACHMENTS};
 };
 class artl: sl {// Artillery Leader
   backpack[] = {CARRYALL};
@@ -347,7 +388,7 @@ class mmgl: sl {// MMG Lead
 };
 class matl: sl {// MAT Lead
   backpack[] = {CARRYALL};
-  magazines[] += {MAT_MAG};
+  magazines[] += {MAT_MAG2};
 };
 class hmgl: sl {// HMG Lead
   weapons[] = {RIFLE};
@@ -372,7 +413,6 @@ class hatl: sl {// HAT Lead
   backpackItems[] = {};
   magazines[] = {RIFLE_MAG,LEADER_GRENADES,PISTOL_MAG,HAT_MAG};
   backpack[] = {CARRYALL};
-  launchers[] = {HAT_TRI_LO};
   items[] += {BASE_MEDICAL};
 };
 class hatg: rifleman {// HAT Gunner
@@ -383,21 +423,22 @@ class hatg: rifleman {// HAT Gunner
 class hatag: rifleman {// HAT Spotter
   backpack[] = {CARRYALL};
   magazines[] += {HAT_MAG};
-  launchers[] = {HAT_TRI_HI};
+  launchers[] = {HAT_TRI};
 };
 class msaml: sl {// MSAM Lead
   backpack[] = {CARRYALL};
-  magazines[] += {SAM_MAG};
+  launchers[] = {SAM};
 };
 class mtrl: sl {// Mortar Lead
+  backpack[] = {CARRYALL};
   items[] += {BASE_ARTILLERY};
+  magazines[] += {"ace_compat_sog_60mm_lume:2","ace_compat_sog_60mm_wp:2"};
+  linkedItems[] = {LINKED,LEADER_LINKED,"ACE_Yardage450"};
 };
 class helicrew: pilot {// Aircrew
-  vest[] = {CAMO_VEST_CC};
   backpackItems[] = {"Toolkit",SIDE_KEY};
 };
 class cc: helicrew {// Crew Chief
-  vest[] = {CAMO_VEST_CREW};
   backpackItems[] += {RADIO_MR};
 };
 class engl: eng {// Logistics Leader
@@ -408,108 +449,3 @@ class engl: eng {// Logistics Leader
   backpackItems[] += {RADIO_MR};
 };
 class fallback: rifleman {}; // This means any faction member who doesn't match something will use this loadout
-
-//SF Classes
-
-#define SF_UNIFORM "acp_CN_Xingkong_W_core_lite_U_I_E_Uniform_OfficerUniformNoInsignia_CN_Xingkong_W_F_flag"
-#define SF_VEST "V_TacVest_oli"
-#define SF_VEST_AR SF_VEST
-#define SF_VEST_FTL SF_VEST
-#define SF_VEST_SL SF_VEST
-#define SF_VEST_SNIPER SF_VEST
-#define SF_HEADGEAR "acp_CN_Xingkong_W_core_lite_H_Booniehat_CN_Xingkong_W"
-#define SF_BACKPACK "B_Battle_Belt_F"
-#define SF_CARRYALL "B_Battle_Belt_XL_F"
-
-#define SF_RIFLE "arifle_CTAR_blk_F"
-#define SF_RIFLE_MAG "30Rnd_580x42_Mag_Tracer_F:5"
-#define SF_RIFLE_ATTACHMENTS "acc_flashlight"
-
-#define SF_CARBINE SF_RIFLE
-#define SF_CARBINE_MAG SF_RIFLE_MAG
-#define SF_RIFLE_ATTACHMENTS SF_RIFLE_ATTACHMENTS
-
-#define SF_GLRIFLE "arifle_CTAR_GL_blk_F"
-#define SF_GLRIFLE_MAG SF_RIFLE_MAG
-#define SF_GLRIFLE_MAG_HE GLRIFLE_MAG_HE
-#define SF_GLRIFLE_MAG_SMOKE GLRIFLE_MAG_SMOKE
-#define SF_GLRIFLE_MAG_ILLUM GLRIFLE_MAG_FLARE
-
-#define SF_AR "arifle_CTARS_blk_F"
-#define SF_AR_MAG "100Rnd_580x42_Mag_F:3"
-#define SF_AR_ATTACHMENTS "acc_flashlight"
-
-#define SF_SNIPER "srifle_DMR_07_blk_F"
-#define SF_SNIPER_MAG "ACE_10Rnd_580x42_DBP88_Mag:7"
-#define SF_SNIPER_ATTACHMENTS "hlc_optic_VOMZ3d"
-
-#define SF_AT "cwr3_launch_rpg75"
-#define SF_AT_MAG
-#define SF_AT_ATTACHMENTS
-
-#define SF_PISTOL PISTOL
-#define SF_PISTOL_MAG PISTOL_MAG
-#define SF_PISTOL_ATTACHMENTS
-
-class sf_rifleman {// sf rifleman
-  uniform[] = {SF_UNIFORM};
-  vest[] = {SF_VEST};
-  headgear[] = {SF_HEADGEAR};
-  backpack[] = {SF_BACKPACK};
-  backpackItems[] = {BASE_MEDICAL};
-  weapons[] = {SF_RIFLE};
-  magazines[] = {SF_RIFLE_MAG,BASE_GRENADES};
-  items[] = {TOOLS};
-  linkedItems[] = {LINKED};
-  attachments[] = {SF_RIFLE_ATTACHMENTS};
-  opticChoices[] = {ALT_OPTICS};
-};
-class sf_rifleman_02: sf_rifleman {// sf rifleman 02
-  vest[] = {SF_VEST_SNIPER};
-  weapons[] = {SF_SNIPER};
-  magazines[] = {SF_SNIPER_MAG,BASE_GRENADES};
-  linkedItems[] = {LINKED};
-  attachments[] = {SF_SNIPER_ATTACHMENTS};
-};
-class sf_ar: sf_rifleman {// AR
-  vest[] = {SF_VEST_AR};
-  weapons[] = {SF_AR};
-  magazines[] = {SF_AR_MAG,SF_PISTOL_MAG,BASE_GRENADES};
-  handguns[] = {SF_PISTOL};
-  handgunAttachments[] = {SF_PISTOL_ATTACHMENTS};
-};
-class sf_aar: sf_rifleman {// AAR
-  weapons[] = {SF_CARBINE};
-  magazines[] = {SF_CARBINE_MAG,BASE_GRENADES};
-  backpackItems[] += {SF_AR_MAG};
-  linkedItems[] += {BINOS};
-};
-class sf_lat: sf_rifleman {// RAT
-  backpack[] = {SF_BACKPACK};
-  weapons[] = {SF_CARBINE};
-  magazines[] = {SF_CARBINE_MAG,SF_AT_MAG,BASE_GRENADES};
-  launchers[] = {SF_AT};
-  secondaryAttachments[] = {SF_AT_ATTACHMENTS};
-};
-class sf_ftl: sf_rifleman {// FTL
-  vest[] = {SF_VEST_FTL};
-  backpack[] = {SF_BACKPACK};
-  weapons[] = {SF_GLRIFLE};
-  magazines[] = {SF_GLRIFLE_MAG,SF_GLRIFLE_MAG_HE,SF_GLRIFLE_MAG_SMOKE,SF_GLRIFLE_MAG_ILLUM,LEADER_GRENADES};
-  items[] += {LEADER_TOOLS};
-  linkedItems[] += {LEADER_LINKED,BINOS};
-};
-class sf_sl: sf_ftl {// SL
-  vest[] = {SF_VEST_SL};
-  handguns[] = {SF_PISTOL};
-  magazines[] += {SF_PISTOL_MAG};
-  linkedItems[] = {LINKED,LEADER_LINKED,RANGE_FINDER};
-  items[] += {RADIO_MR};
-  handgunAttachments[] = {SF_PISTOL_ATTACHMENTS};
-};
-class sf_sm: sf_rifleman {// Medic
-  weapons[] = {SF_CARBINE};
-  magazines[] = {SF_CARBINE_MAG,MEDIC_GRENADES};
-  backpack[] = {SF_CARRYALL};
-  backpackItems[] = {MEDIC_MEDICAL};
-};
