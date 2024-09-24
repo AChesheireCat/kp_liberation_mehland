@@ -752,7 +752,10 @@ KPLIB_transportConfigs = [
     ["vn_b_wheeled_m54_02", -5, [0,-0.8,0.18], [0,-2.5,0.18]],
     ["vn_o_wheeled_z157_01", -5.5, [0,-1.2,0.18], [0,-2.9,0.18]],
     ["vn_b_air_ch47_03_01", -8, [0,3.9,-2.0], [0,2.2,-2.0], [0,0.5,-2.0], [0,-1.2,-2.0]],
-    ["vnx_b_air_ac119_03_01",-10,[0,5.6,-2.1],[0,4,-2.1],[0,2.4,-2.1],[0,0.8,-2.1],[0,-0.8,-2.1],[0,-2.4,-2.1],[0,5.6,-0.8],[0,4,-0.8],[0,2.4,-0.8],[0,0.8,-0.8],[0,-0.8,-0.8],[0,-2.4,-0.8]]
+    ["vnx_b_air_ac119_03_01",-10,[0,5.6,-2.1],[0,4,-2.1],[0,2.4,-2.1],[0,0.8,-2.1],[0,-0.8,-2.1],[0,-2.4,-2.1],[0,5.6,-0.8],[0,4,-0.8],[0,2.4,-0.8],[0,0.8,-0.8],[0,-0.8,-0.8],[0,-2.4,-0.8]],
+    ["AMF_GBC180_ViV",-6.5,[0.008,0.394,2.238],[0.008,-1.072,2.238],[0.008,-2.539,2.238]],
+    ["amf_nh90_tth_cargo",-11,[0.084,4.464,-1.318],[0.084,2.997,-1.318],[0.084,1.467,-1.318],[0.084,0,-1.318]],
+    ["B_AMF_PLANE_TRANSPORT_01_F".-11,[-0.1,9.552,-3.594],[-0.1,8.059,-3.594],[-0.1,6.597,-3.594],[-0.1,5.132,-3.594],[-0.1,3.669,-3.594].[-0.1,2.188,-3.594],[-0.1,0.707,-3.594],[-0.1,0.795,-3.594]]
 ];
 
 /* Various other settings.
@@ -841,7 +844,8 @@ vehicle_repair_sources = [
     "uns_M113_ENG",
     "uns_M35A2_repair",
     "uns_motorpool1_repair",
-    "vn_b_wheeled_m54_repair"
+    "vn_b_wheeled_m54_repair",
+    "AMF_GBC180_MECA_01"
 ];
 
 vehicle_rearm_sources = [
@@ -883,7 +887,8 @@ vehicle_rearm_sources = [
     "sfp_tgb40_ammo",
     "uns_M113_ENG",
     "uns_M35A2_ammo",
-    "vn_b_wheeled_m54_ammo"
+    "vn_b_wheeled_m54_ammo",
+    "AMF_GBC180_AmmoTruck"
 ];
 
 vehicle_refuel_sources = [
@@ -932,7 +937,8 @@ vehicle_refuel_sources = [
     "Land_vn_b_prop_fuelbladder_03",
     "Land_vn_b_prop_fuelbladder_04",
     "Land_vn_usaf_fueltank_75_01",
-    "Land_vn_b_prop_fueldrum_01"
+    "Land_vn_b_prop_fueldrum_01",
+    "CUP_B_MTVR_Refuel_BAF_WOOD"
 ];
 
 // Classnames of boats, so they can be built on water.

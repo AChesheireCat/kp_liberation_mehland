@@ -105,6 +105,18 @@ KPLIB_objectInits = [
         {_this animateSource ["cover_unhide", 0, true];}
     ],
 
+    // Hide Cover on AMF ViV truck
+    [
+        ["AMF_GBC180_ViV"],
+        {_this animateSource ["showFullCover", 0, true];}
+    ],
+
+    // MTVR Fuel set better camo
+    [
+        ["CUP_B_MTVR_Refuel_BAF_WOOD"], 
+        {[_this, ["USMC",1], true] call BIS_fnc_initVehicle;}
+    ],
+
     // Make sure a slingloaded object is local to the helicopter pilot (avoid desync and rope break)
     [
         ["Helicopter"],
