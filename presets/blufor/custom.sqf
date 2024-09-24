@@ -87,8 +87,8 @@ infantry_units = [
 
 light_vehicles = [
     ["B_T_Quadbike_01_F",25,0,25],                                      // Quad Bike
-    ["AMF_GBC180_PLATEAU_01",50,0,50],                                  // GBC 180 (Flatbed)
     ["AMF_GBC180_ViV",50,0,50],                                         // GBC 180 (ViV)
+    ["B_T_Truck_01_flatbed_F",125,0,75],                                // HEMTT Flatbed
     ["AMF_GBC180_PERS_01",50,0,50],                                     // GBC 180 (Transport)
     ["amf_pvp_01_mag_CE_f",75,30,50],                                   // PVP Pl80 (CE)
     ["amf_pvp_01_top_CE_f",75,30,50],                                   // PVP WASP (CE)
