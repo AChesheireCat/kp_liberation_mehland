@@ -87,8 +87,8 @@ infantry_units = [
 
 light_vehicles = [
     ["B_T_Quadbike_01_F",25,0,25],                                      // Quad Bike
-    ["AMF_GBC180_PLATEAU_01",50,0,50],                                  // GBC 180 (Flatbed)
     ["AMF_GBC180_ViV",50,0,50],                                         // GBC 180 (ViV)
+    ["B_T_Truck_01_flatbed_F",125,0,75],                                // HEMTT Flatbed
     ["AMF_GBC180_PERS_01",50,0,50],                                     // GBC 180 (Transport)
     ["amf_pvp_01_mag_CE_f",75,30,50],                                   // PVP Pl80 (CE)
     ["amf_pvp_01_top_CE_f",75,30,50],                                   // PVP WASP (CE)
@@ -128,6 +128,7 @@ air_vehicles = [
     ["B_AMF_Heli_Transport_4RHFS_01_F",275,0,175],                      // H225ML Caracal 4RHFS
     ["amf_nh90_tth_cargo",275,0,175],                                   // NH90 TTH (Cargo)
     ["amf_nh90_tth_transport",275,0,175],                               // NH90 TTH
+    ["CUP_B_CH47F_GB",300,80,175],                                      // CUP_B_CH47F_GB
     ["AMF_TIGRE_01",700,600,200],                                       // EC665 Eurocopter Tiger (HAD)
     ["B_T_UAV_03_dynamicLoadout_F",450,500,250],                        // MQ-12 Falcon
     ["B_AMF_REAPER_dynamicLoadout_F",500,500,200],                      // MQ-9 Reaper
@@ -244,6 +245,10 @@ support_vehicles = [
     ["ACE_Box_82mm_Mo_Illum",50,10,0],
     ["ACE_Wheel",10,0,0],
     ["ACE_Track",10,0,0],
+    ["Land_Boxloader_Pallet_5_Net",10,0,0],                             // Boxloader Master Pallet
+    ["Land_Boxloader_iso_20ft_black",20,0,0],                           // Boxloader 20ft ISO
+    ["Boxloader_drumpallet_fuel",10,0,20],                              // Boxloader Fuel Drums
+    ["Land_Boxloader_Crate_1",10,0,0],                                  // Boxloader Empty Box
     ["USAF_missileCart_W_AGM114",50,150,0],                             // Missile Cart (AGM-114)
     ["USAF_missileCart_AGMMix",50,150,0],                               // Missile Cart (AGM-65 Mix)
     ["USAF_missileCart_AGM1",50,150,0],                                 // Missile Cart (AGM-65D)
@@ -260,9 +265,9 @@ support_vehicles = [
     ["CUP_B_TowingTractor_NATO",50,0,25],                               // Towing Tractor
     ["boxloader_atlas",50,0,25],                                        // Towing Tractor
     ["boxloader_kalmar",50,0,25],                                       // Towing Tractor
-    ["B_T_Truck_01_Repair_F",425,0,75],                                 // HEMTT Repair
-    ["B_T_Truck_01_fuel_F",125,0,375],                                  // HEMTT Fuel
-    ["B_T_Truck_01_ammo_F",125,300,75],                                 // HEMTT Ammo
+    ["AMF_GBC180_MECA_01",425,0,75],                                    // GBC180 Repair
+    ["CUP_B_MTVR_Refuel_BAF_WOOD",125,0,375],                           // MTVR Fuel
+    ["AMF_GBC180_AmmoTruck",125,300,75],                                // GBC180 Ammo
     ["B_Slingload_01_Repair_F",275,0,0],                                // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,200],                                 // Huron Fuel
     ["B_Slingload_01_Ammo_F",75,200,0]                                  // Huron Ammo
