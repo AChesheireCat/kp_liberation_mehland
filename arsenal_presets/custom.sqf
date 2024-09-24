@@ -219,8 +219,12 @@ GRLIB_arsenal_items = [
     "AMF_LASER_PIRATE",                                             // Attachment
     "potato_strongerFlashlights_CUP_LED_flashlight",                // Attachment
     "amf_acc_laserpirat",                                           // Attachment
-    "amf_acc_famas_grip5",                                           // Attachment
-    "amf_acc_famas_grip4",                                           // Attachment
+    "amf_acc_famas_grip5",                                          // Attachment
+    "amf_acc_famas_grip4",                                          // Attachment
+    "amf_acc_614_grip3",                                            // Attachment
+    "amf_acc_614_grip2",                                            // Attachment
+    "AMF_WMX200",                                                   // Attachment
+    "bipod_01_F_blk",                                               // Attachment
     "AMF_ROTEX_V",                                                  // Suppressor
     "ptv_compm4s",                                                  // Scope
     "ptv_cm4s3xmag",                                                // Scope
@@ -235,6 +239,12 @@ GRLIB_arsenal_items = [
     "ptv_vipir2p",                                                  // Scope
     "ptv_rmr",                                                      // Scope
     "ptv_xps3_des",                                                 // Scope
+    "AMF_schmidt_benderx4_tan",                                     // Scope
+    "ptv_shortdot_dcc_des",                                         // Scope
+    "ptv_compm5",                                                   // Scope
+    "ptv_compm5s",                                                  // Scope
+    "ptv_cm53xmag",                                                 // Scope
+    "ptv_cm5s3xmag",                                                // Scope
 
     // ACE Items
     "ACE_DBAL_A3_Green",                                        // Laser Pointer (green)
