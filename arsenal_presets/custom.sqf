@@ -128,6 +128,7 @@ GRLIB_arsenal_items = [
     "AMF_ALPHA900",                                                 // GENTEX Alpha 900 Heli Pilot Helmet
     "AMF_ALPHA900_02",                                              // GENTEX Alpha 900 Heli Crew Helmet
     "AMF_LA100",                                                    // MSA LA 100 Jet Pilot Helmet
+    "AMF_topowl",                                                   // THALES TOPOWL
     
     // Facegear
     "CUP_G_RUS_Ratnik_Balaclava_Olive_1",
